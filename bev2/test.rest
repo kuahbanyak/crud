@@ -1,0 +1,25 @@
+GET http://localhost:5000/products
+
+###
+POST http://localhost:5000/products/624e886663b171d6cbe41820
+Content-Type: application/json
+
+{
+  "name": "Product 2",
+  "price": 10.00,
+  "description": "This is a product"
+
+}
+
+###
+PATCH http://localhost:5000/products/624e86a263b171d6cbe4181e
+Content-Type: application/json
+
+{
+  "name": "Product 2",
+  "price": 1000.00,
+  "description": "This is a gg product"
+}
+
+###
+DELETE http://localhost:5000/products/624e86a263b171d6cbe4181e
