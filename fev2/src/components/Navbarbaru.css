@@ -1,0 +1,169 @@
+.nav-header{
+    width: 100%;
+    height: 32px;
+    background: #F3F4F5;
+    margin-top: -5px
+}
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 32px;
+    border-bottom: 1px solid #E5E5E5;
+    flex-direction: row;
+    font-size: 14px;
+    box-sizing: inherit;
+}.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    min-width: 168px;
+    margin-right: 16px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: inherit;
+    color: #4A4A4A;
+    
+}.scan{
+    margin-left: 20px;
+}
+.logo1{
+    width: 20px;
+    height: 20px;
+    background-image: url(../assets/kan.svg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 60% 60%;
+    display: inline-block;
+}
+.nav-menu{
+    display: flex;
+    align-items: center ;
+    justify-content: space-around;
+    width: 500px;
+    margin-right: 16px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: inherit;
+}.about{
+    font-size: 15px;
+    line-height: 31px;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    transition: color 200ms ease;
+    background-color: transparent;
+    cursor: pointer;
+    color: #4A4A4A;
+}.mitra{
+    font-size: 15px;
+    line-height: 31px;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    transition: color 200ms ease;
+    background-color: transparent;
+    cursor: pointer;
+    color: #4A4A4A;
+}.promo{
+    font-size: 15px;
+    line-height: 31px;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    transition: color 200ms ease;
+    background-color: transparent;
+    cursor: pointer;
+    color: #4A4A4A;
+}
+.utcare{ font-size: 15px;
+    line-height: 31px;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    transition: color 200ms ease;
+    background-color: transparent;
+    cursor: pointer;
+    color: #4A4A4A;
+}
+ .navbar-container{
+    width: 94%;
+    left: 36px;
+    display: flex;
+    height: 56px;
+    top: 30px;
+    position: absolute;
+    margin-top: 10px;
+    float: inline-end;
+    
+}  .menu-kategori{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 1px 8px 0 10px;
+    box-sizing: inherit;
+} 
+.menu-log{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 0 px;
+}
+.btn-login{
+    -webkit-appearance: button;
+    width: 47%;
+    height: 32px;
+    padding: 0px 16px;
+    font-weight: 800;
+    border-radius: 8px;
+    font-size: 12px;
+    background: black;
+    color: #FFD500;
+    cursor: pointer;
+    border: 1px solid #FFD500;
+    line-height: 1.15;
+    margin: 0;
+    box-sizing: inherit;
+    position: relative;
+    top: -2px;
+    left: 800px;
+    font-family: 'Open Sans', sans-serif;
+} 
+.btn-login:hover{
+    background: #FFD500;
+    color: black;
+}
+.btn-login:focus{
+    outline: none;
+}
+.btn-login:active{
+    background: #FFD500;
+    color: black;
+}
+.btn-daftar{
+    -webkit-appearance: button;
+    width: 47%;
+    height: 32px;
+    color: #FFD500;
+    padding: 0px 16px;
+    font-weight: 800;
+    border-radius: 8px;
+    font-size: 12px;
+    background: white;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    top: -2px;
+    left: 850px;
+    box-sizing: inherit;
+    font-family: 'Open Sans', sans-serif;
+
+} 
+.btn-daftar:hover{
+    background: #FFD500;
+    color: black;
+}

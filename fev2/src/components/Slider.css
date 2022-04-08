@@ -1,0 +1,23 @@
+.container{
+    margin-top: 50px;
+}
+.container-slide {
+    height: 20px;
+    width: 100%;
+}
+
+.slick-slide {
+    height: 320px;
+    border: 4px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.slick-slide img {
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+    box-sizing: border-box;
+    border-radius: 30px;
+    
+}
